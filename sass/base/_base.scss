@@ -1,0 +1,22 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  /* 10 / 16 = 0.625 */
+  //   This define what 1rem is
+  font-size: 62.5%;
+
+  /* .625 * 16 = 10px root font size */
+  /* .625 * 20 = 12.5px root font size */
+  /* .625 * 22 = 13.75px root font size */
+}
+
+body {
+  box-sizing: border-box;
+}
+
